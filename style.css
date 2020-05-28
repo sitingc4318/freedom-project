@@ -31,12 +31,28 @@
   .sidenav a {font-size: 18px;}
 }
 
+section{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
+  /*background-size: cover;*/
+  text-align: center;
+  width: 100%;
+  height:100vh;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'IM Fell French Canon SC', serif;
+}
+
 .Home{
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
   background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
-  background-size: cover;
+  /*background-size: cover;*/
+  text-align: center;
   width: 100%;
   height:100vh;
   padding-top: 30px;
@@ -51,6 +67,7 @@
   background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
   background-size: cover;
   width: 100%;
+  padding-left: 180px;
   /*height:100vh;*/
   padding-top: 30px;
   font-size: 5px
@@ -64,6 +81,7 @@
   background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
   background-size: cover;
   width: 100%;
+  padding-left: 180px;
   /*height:100vh;*/
   padding-top: 30px;
   font-size: 5px
@@ -77,6 +95,7 @@
   background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
   background-size: cover;
   width: 100%;
+  padding-left: 180px;
   /*height:100vh;*/
   padding-top: 30px;
   font-size: 5px
@@ -94,6 +113,7 @@
   padding-top: 30px;
   font-size: 5px
   font-family: 'Permanent Marker', cursive;
+  padding-left: 180px;
 }
 
     
