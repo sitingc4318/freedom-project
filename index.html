@@ -1,21 +1,56 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+ <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
     <title>Start Saving Money!</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-</head>
 
-<body> 
+    <script>
+        function openSlideMenu(){
+    document.getElementById("menu").style.width="300px";
+    document.getElementById("mainbox").style.marginLeft="300px";
+   
+  }
+  function closeSlideMenu(){
+    document.getElementById("menu").style.width="0px";
+    document.getElementById("mainbox").style.marginLeft="0px";
+  }
+    </script>
+    
+ </head>
 
- <div class= "Home">
+<body>
+<!-- Side navigation -->
+<div class="sidenav">
+ <a href="#Home">Home</a>
+  <a href="#Financial">Financial Step</a>
+  <a href="#Opportunities">Opportunities</a>
+  <a href="#Employment">Employments</a>
+  <a href="#Math">Math</a>
+</div>
+
+<!-- Page content -->
+<div class="main">
+</div>
+  
+ 
+  
+
+ <div class= "Home" id="Home">
     <h1> Intro </h1>
   </div>
   
-  <div class= "Financial Step">
+  <div class= "Financial" id="Financial">
     <h1> Financial Steps </h1>
     <p></p>
     
@@ -37,7 +72,7 @@
     </div>
   
   
-  <div class= "Opportunities">
+  <div class= "Opportunities" id="Opportunities">
     <h1> High School Opportunities </h1>
     <p></p>
     
@@ -68,7 +103,7 @@
     <p></p>
   </div>
   
-  <div class= "Good Employers">
+  <div class= "Employment" id="Employment">
     <h1> Good Employer </h1>
     <p></p>
     
@@ -100,7 +135,7 @@
     
   </div>
   
-  <div class= "Math">
+  <div class= "Math" id="Math">
     <h1>Math</h1>
     <p></p>
  
