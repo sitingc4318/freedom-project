@@ -16,7 +16,8 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  /*color: #818181;*/
+  color: white;
   display: block;
 }
 
@@ -35,15 +36,16 @@ section{
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
-  /*background-size: cover;*/
+  background: url(https://previews.123rf.com/images/alekss/alekss1503/alekss150300154/37125811-the-many-dollars-money-background.jpg);
+  background-size: cover;
   text-align: center;
-  width: 100%;
+  width: 88%;
   height:100vh;
   padding-top: 30px;
   font-weight: bold;
   font-size: 80px;
   font-family: 'IM Fell French Canon SC', serif;
+  color: white;
 }
 
 .Home{
@@ -53,25 +55,41 @@ section{
   background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
   /*background-size: cover;*/
   text-align: center;
-  width: 100%;
-  height:100vh;
-  padding-top: 30px;
+  width: 88%;
   font-size: 5px
   font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.Home li{
+    padding-left: 180px;
+    text-align: left;
 }
 
 .Financial{
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
+  background: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11512769.jpg) center;
   background-size: cover;
-  width: 100%;
-  padding-left: 180px;
+  width: 88%;
   /*height:100vh;*/
   padding-top: 30px;
   font-size: 5px
   font-family: 'Permanent Marker', cursive;
+  color: #FFA500;
+}
+
+.Financial li{
+  font-size: 18px;
+}
+
+.Financial p{
+  font-size: 25px;
+}
+
+h4{
+  color: black;
 }
 
 .Opportunities{
@@ -80,41 +98,89 @@ section{
   padding: 0px 10px;
   background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
   background-size: cover;
-  width: 100%;
-  padding-left: 180px;
+  width: 88%;
   /*height:100vh;*/
   padding-top: 30px;
   font-size: 5px
   font-family: 'Permanent Marker', cursive;
+  color: #FE828C;
 }
 
+.Opportunities li{
+  font-size: 18px;
+}
+
+.Opportunities p{
+  font-size: 25px;
+}
+
+.Opportunities h4{
+ text-decoration: underline;
+}
+
+a {
+  font-size: 20px;
+}
+
+p1{
+  font-size: 26px;
+}
+
+p2{
+  font-size: 23px;
+}
 .Employment{
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
+  background: url(https://image.freepik.com/free-photo/partnership-business-man-shaking-hands-with-effect-digital-network-link-connection-graphic-diagram-digital-global-technology-with-cityscape-background_33829-157.jpg) center;
   background-size: cover;
-  width: 100%;
-  padding-left: 180px;
+  width: 88%;
   /*height:100vh;*/
   padding-top: 30px;
   font-size: 5px
   font-family: 'Permanent Marker', cursive;
+  color: #FFA500;
+}
+
+.Employment li{
+  font-size: 18px;
+}
+
+.Employment h5{
+  text-decoration: underline;
+}
+
+p{
+  font-size: 25px;
 }
 
 .Math{
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
-  background: url(https://www.blueskyvineyard.com/wp-content/uploads/2014/03/cloud-background-1.jpg);
+  background: url(https://elements-video-cover-images-0.imgix.net/files/229501069/Preview_Image_Di.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=443dfb5907d445cbd86eb8b7d9e528ce);
   background-size: cover;
-  width: 100%;
-  /*height:100vh;*/
+  width: 88%;
   padding-top: 30px;
   font-size: 5px
   font-family: 'Permanent Marker', cursive;
-  padding-left: 180px;
+  color: #FE828C;
 }
+
+.Math h4{
+  text-decoration: underline;
+}
+
+.Math p{
+  font-size: 25px;
+}
+
+.Math li{
+  font-size: 18px;
+}
+
+
 
     
     
